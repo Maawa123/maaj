@@ -1,0 +1,31 @@
+MAAJ TRADING – SITE STATIQUE POUR VERCEL
+
+MISE EN LIGNE
+1. Compte gratuit sur https://vercel.com (connexion avec GitHub).
+2. Créez un dépôt GitHub (ex. "maaj-site"), puis "Add file > Upload files" :
+   glissez TOUT le contenu de ce dossier.
+3. Vercel : "Add New > Project" > importez le dépôt > Framework : "Other" > Deploy.
+4. Domaine : Settings > Domains > maajtrading.com, puis recopiez les DNS
+   (A / CNAME) chez votre registrar. Ne touchez pas aux MX (emails).
+
+MODIFIER UN TEXTE
+GitHub > fichier .html > crayon > modifier > Commit. Vercel republie seul.
+
+IMAGES ET CATALOGUES
+Vos images sont dans /images, les catalogues PDF (EN et FR) à la racine.
+Pour remplacer une image, gardez le même nom de fichier.
+
+IMAGES À REMPLACER (déposez-les dans /images avec EXACTEMENT ces noms)
+Tant qu'un fichier manque, le site affiche automatiquement la version Wix.
+Format conseillé : JPG carré, environ 600 x 600 px.
+- serve-hotels.jpg          (Who we serve – Hotels)
+- serve-chocolatiers.jpg    (Who we serve – Chocolatiers)
+- serve-ice-cream.jpg       (Who we serve – Ice cream makers)
+- serve-food-industry.jpg   (Who we serve – Food industry)
+- serve-bakeries.jpg        (Who we serve – Bakeries and pastry chefs)
+- spec-origin.jpg           (rond Origin)
+- spec-farming.jpg          (rond Farming / Extraction method)
+- spec-moisture.jpg         (rond Moisture / Vanillin content extrait)
+- spec-vanillin.jpg         (rond Vanillin content / Appearance)
+- spec-size.jpg             (rond Size / Shelf life extrait)
+- spec-shelf-life.jpg       (rond Shelf life)
